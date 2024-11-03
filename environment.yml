@@ -1,0 +1,13 @@
+name: FDSenv
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+    - tensorflow==1.14.0
+    - keras==2.2.4
